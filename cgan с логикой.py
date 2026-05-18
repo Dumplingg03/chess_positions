@@ -18,6 +18,7 @@ NUM_ITERATIONS = 50  # Можно ставить 50-100
 LATENT_DIM = 64
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
+
 PIECES_PATH = "pieces/"
 TILE_SIZE = 60
 PIECE_SYMBOLS = ['P','N','B','R','Q','K','p','n','b','r','q','k']

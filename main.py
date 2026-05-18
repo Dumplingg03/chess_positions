@@ -10,6 +10,7 @@ from cgan_model import Generator
 from chess_logic import ChessAnalyzer
 from gui import ChessGUI
 
+
 # --- НАСТРОЙКИ ---
 STOCKFISH_PATH = r"C:\Users\Koshk\PycharmProjects\Chess\Lab 4\chessgen\stockfish\stockfish-windows-x86-64-avx2.exe"
 MODEL_PATH = "models/G_ttur_ep_19.pth"

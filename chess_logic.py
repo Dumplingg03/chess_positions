@@ -3,6 +3,7 @@ import chess
 import chess.engine
 
 
+
 class ChessAnalyzer:
     def __init__(self, engine_path):
         self.engine_path = engine_path

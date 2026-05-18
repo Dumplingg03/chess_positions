@@ -92,6 +92,7 @@ def main():
 
     print(f"🚀 Генерация {NUM_SAMPLES} позиций и логирование графиков...")
 
+
     for i in range(1, NUM_SAMPLES+1):
         with torch.no_grad():
             z = torch.randn(1,LATENT_DIM).to(DEVICE)

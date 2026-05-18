@@ -7,6 +7,7 @@ SQ_SIZE = 600 // 8
 MAX_PUZZLE_MOVES = 5
 
 
+
 class ChessGUI:
     def __init__(self):
         pygame.init()

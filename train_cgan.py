@@ -9,6 +9,7 @@ from tqdm import tqdm
 import numpy as np
 import torchvision.utils as vutils
 
+
 from cgan_model import Generator, Discriminator
 from dataset_utils import ChessDataset
 

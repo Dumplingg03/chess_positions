@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 
 
+
 class ChessDataset(Dataset):
     def __init__(self, data_path, num_samples=1000000):
         # Берем ровно миллион задач
